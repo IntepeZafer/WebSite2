@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="h-100 d-flex flex-column">
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><i class="fa-solid fa-house"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile"><span class="navbar-toggler-icon"></span></button>
+            <div id="mobile" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="navbar-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="navbar-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="navbar-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <form action="" class="d-flex">
+                    <input type="text" class="form-control me-1" placeholder="Search">
+                    <button class="btn btn-warning"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container my-4">
+            <h2 class="my-2">Contact Us</h2>
+            <div class="row g-2">
+                <div class="col-md-6">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163720.87254088465!2d8.496481019531155!3d50.1211277420533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd096f477096c5%3A0x422435029b0c600!2sFrankfurt%2C%20Almanya!5e0!3m2!1str!2str!4v1670161523172!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <div class="alert alert-warning">
+                                Please Fill Out The Form.
+                            </div>
+                            <form class="row g-3 text-white">
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Name">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Enter Your Phone">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" name="subject" id="name" class="form-control" placeholder="Enter The Subject">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea name="message" id="message" class="form-control" placeholder="Enter Your Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-outline-warning text-white w-100">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="py-5 bg-dark text-white mt-auto">
+        <div class="container text-center">
+            <span>All Rights Reversed. @2025</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="asset/js/bootstrap.min.js"></script>
+
+</body>
+</html>
